@@ -89,8 +89,11 @@ The **less** command shows the document in smaller incriments and allows you to 
 |Operand|Syntax|Example|
 |-------|------|-------|
 |>|\<command-w/-output\> *>* \<file\>|\$ cat qw.txt > qubit.txt|  
+|>>|\<command-w/-output\> *>>* \<file\>|\$ cat Quantum.txt >> qubit.txt|  
 
-The **>** operand reffers to *redirect stdout*. This takes the output from the preceding command (that you would typically see in the terminal) and sends it to a file you give the command.  
+The **>** operand reffers to *redirect stdout*. This takes the output from the preceding command (that you would typically see in the terminal) and sends it to a file you give the command.   
+* A single > operator overwrites the file its pointing to. If the reveiving file is empty, it will be filled with the output of the initial command.
+* Two >> operators are used to append data to the end of a file. If the receiving file already contains data, the new data will be added to the bottom of the file.  
 
 In the case of the example above, the cat command combined with the redirect would concatenate the first file to the second file (concatenate qw.txt to qubit.txt). If the file right of the operand has not already been created, a new file will be created with the given name.  
 
