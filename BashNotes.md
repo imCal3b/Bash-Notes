@@ -19,7 +19,7 @@ A list of useful Bash (Bourne Again Shell) commands
 
 |Command|Syntax|Example|
 |-------|------|-------|
-|locate|locate \<options\> \<search-text\>|\\$ locate first [or] \\$ locate ".txt"|  
+|locate|locate \<options\> \<search-text\>|\$ locate first [or] \$ locate ".txt"|  
 
 The **locate** command is used to locate a specific file or directory. You can keep your search broad oif you dont know what exactly it is you're looking for, or you can narrow the scope by using wildcards or regular expressions.  
 
