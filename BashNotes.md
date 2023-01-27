@@ -80,6 +80,10 @@ The **cat** command is used to read a file, create a file, and concatenate (join
 
 the **less** or **more** command is used to view the contents of a text file without opening an editor. Its faster to use and theres no chance of you inadvertently modifying the file.  
 
+The **more** command shows the document in the terminal. If it does not fit on one page (screen) it will show the file  in multiple pages, however, you cannot go backwards through the pages, only forwards.  
+
+The **less** command shows the document in smaller incriments and allows you to scroll up and down through the file.
+
 ---
 
 |Operand|Syntax|Example|
